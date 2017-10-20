@@ -1,0 +1,26 @@
+.header-row, .page-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:50px;
+  width:100%;
+  background-color:lightblue;
+}
+
+.page-footer{
+  background-color:lightgray;
+  border-top:1px solid gray;
+}
+.footer-container {
+  margin-left:10px;
+}
+.item-containter {
+  height:200px;
+  background-color: white;
+  font-size:2em;
+}
+.item-container h1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
