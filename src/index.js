@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app'
-import { CartHeader, CartFooter, Items } from './app.js'
+import Items from './components/items.js'
+import CartHeader from './components/header.js'
+import CartFooter from './components/footer.js'
 
 ReactDOM.render(
   <div>
