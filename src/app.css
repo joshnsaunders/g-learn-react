@@ -24,3 +24,21 @@
   align-items: center;
   justify-content: center;
 }
+.cart-items-row{
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  height:25px;
+  background-color: lightgray;
+}
+.cart-items-row div, .item-title div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-title{
+  display:grid;
+  grid-template-columns:33% 33% 33%;
+  height:25px;
+  background-color:lightgray;
+  border-bottom: 1px solid gray;
+}

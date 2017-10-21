@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../app.css'
 
-const CartFooter = () => {
+const CartFooter = ({copyright}) => {
+  //console.log(props);
   return (
   <footer className="page-footer">
     <div className="container">
@@ -13,7 +14,7 @@ const CartFooter = () => {
     </div>
     <div className="footer-copyright">
       <div className="footer-container">
-        &copy; Never
+        &copy; {copyright}
       </div>
     </div>
   </footer>
